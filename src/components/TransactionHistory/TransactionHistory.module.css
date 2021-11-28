@@ -1,0 +1,32 @@
+.transactionHistory {
+  margin-top: 50px;
+  color: black;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.transactionHistory td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+.transactionHistory tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.transactionHistory th {
+  font-size: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #54796b;
+  color: white;
+  border: 1px solid #ddd;
+  text-transform: uppercase;
+}
+
+.transactionType {
+  text-transform: capitalize;
+}
