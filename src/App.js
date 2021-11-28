@@ -5,7 +5,7 @@ import user from "./components/Profile/user.json";
 function App() {
   return (
     <div>
-      <Profile users={user} />
+      <Profile {...user} />
     </div>
   );
 }
